@@ -1,0 +1,50 @@
+[
+  {
+    "name": "g0",
+    "gate": "XOR",
+    "inputs": [
+      "nD",
+      "D"
+    ]
+  },
+  {
+    "name": "g1",
+    "gate": "NOR",
+    "inputs": [
+      "nD",
+      "nEN"
+    ]
+  },
+  {
+    "name": "g2",
+    "gate": "NOR",
+    "inputs": [
+      "nD",
+      "nEN"
+    ]
+  },
+  {
+    "name": "g3",
+    "gate": "AND",
+    "inputs": [
+      "Q",
+      "nEN"
+    ]
+  },
+  {
+    "name": "g4",
+    "gate": "XOR",
+    "inputs": [
+      "g3",
+      "g1"
+    ]
+  },
+  {
+    "name": "g5",
+    "gate": "NOR",
+    "inputs": [
+      "g4",
+      "g2"
+    ]
+  }
+]

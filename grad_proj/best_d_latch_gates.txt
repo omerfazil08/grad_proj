@@ -1,0 +1,6 @@
+g0: XOR(nD, D)
+g1: NOR(nD, nEN)
+g2: NOR(nD, nEN)
+g3: AND(Q, nEN)
+g4: XOR(g3, g1)
+g5: NOR(g4, g2)
